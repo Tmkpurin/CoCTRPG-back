@@ -1,0 +1,26 @@
+{
+  "kind": "character",
+  "data": {
+    "name": "IKEA",
+    "initiative": 18,
+    "externalUrl": "https://charaeno.com/6th/kS2nCD5CgIEqkKkPNvTae",
+    "status": [
+      { "label": "HP", "value": 35, "max": 35 },
+      { "label": "MP", "value": 18, "max": 18 },
+      { "label": "SAN", "value": 80, "max": 80 }
+    ],
+    "params": [
+      { "label": "STR", "value": "18" },
+      { "label": "CON", "value": "18" },
+      { "label": "POW", "value": "18" },
+      { "label": "DEX", "value": "18" },
+      { "label": "APP", "value": "18" },
+      { "label": "SIZ", "value": "18" },
+      { "label": "INT", "value": "18" },
+      { "label": "EDU", "value": "18" },
+      { "label": "DB", "value": "+1D6" }
+    ],
+    "commands": "1D100<={SAN} 正気度ロール\nCCB<=90 幸運\nCCB<=90 STR×5\nCCB<=90 CON×5\nCCB<=90 POW×5\nCCB<=90 DEX×5\nCCB<=90 APP×5\nCCB<=90 SIZ×5\nCCB<=90 INT×5\nCCB<=90 アイデア\nCCB<=90 知識\nCCB<=36 回避\nCCB<=25 聞き耳\nCCB<=25 図書館\nCCB<=90 母国語（）\nCCB<=25 目星\nCCB<=25 キック\nCCB<=25 組みつき\nCCB<=50 こぶし\nCCB<=10 頭突き\n1D6+{DB} キック\n1D3+{DB} こぶし\n1D4+{DB} 頭突き",
+    "memo": ""
+  }
+}
